@@ -1,0 +1,95 @@
+<!-- This tells the browser what type of file to expect and how to read it -->
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<title>AvocadoPSD></title>
+	<!--fontawesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<!-- The href in the link tag below contains the relative file path leading to our main.css stylesheet. From this document, our index.html, the browser knows to look for something called "css" and then to go inside of that folder and look for something called "main.css" -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" type="img/jpg" href="img/codifyacademy.jpg">
+</head>
+<body>
+
+	<!-- separate your logo img from the ul. the image goes left, the ul goes right. put them in different divs within your nav -->
+
+	<nav class="navigation">
+<!--avocado logo-->
+		<div>
+			<img src="img/avocadotm.jpg" alt="avocado logo">
+		</div>
+
+		<div>
+		<ul>
+			<li>
+				<a href="home">HOME</a>
+			</li>
+			<li>
+				<a href="about">ABOUT</a>
+			</li>
+			<li>
+				<a href="case studies">CASE STUDIES</a>
+			</li>
+			<li>
+				<a href="blog">BLOG</a>
+			</li>
+			<li>
+				<a href="Contact">CONTACT</a>
+			</li>
+		</ul>
+	</div>
+
+	</nav>
+
+<!--search bar-->
+<!-- do you mean for your section to have a class of search? because it contains everything below except your buttons and footer -->
+<section class="container">
+
+	<!-- give this div the class of search -->
+	<div class="search">
+ 		<input type="search" placeholder="Search..">
+		<i class="fas fa-search"></i>
+	</div>
+
+<!--avocado photo, text-->
+	<div class="left">
+		<img src="img/avocado.jpg" alt="avocado picture">
+	</div>
+	<div class="trade">
+		<p>Avocado &trade; uses only the very freshest design fruits & veggies to create your web & app designs.</p>
+	</div>
+
+<!--buttons-->
+<!-- put your buttons inside div.right. this should have been observed from the codepens -->
+
+	<div class="right">
+		<button>GET A QUOTE</button>
+		<button>VIEW A CASE STUDY</button>
+	</div>
+</section>
+
+<!--footer containing social media icons-->
+<footer>
+	<div class="footer">
+		<ul>
+
+			<!-- put each anchor in its own li. use icons inside the anchors. look it up if you don't know what I mean -->
+			<li>
+				<i href="#" class="fa fa-facebook"></i>
+			</li>
+			<li>
+				<i href="#" class="fa fa-instagram"></i>
+			</li>
+			<li>
+				<i href="#" class="fa fa-twitter"></i>
+			</li>
+		</ul>
+	</div>
+</footer>
+
+
+</body>
+</html>
